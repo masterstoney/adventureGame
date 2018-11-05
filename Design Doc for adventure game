@@ -1,0 +1,28 @@
+Design Doc for adventure game
+
+
+Classes
+
+GameCharacter
+-String Name
+-Double attackPower
+
+
+
+
+Player
+-PlayerType type
+-Double energy
+-Int UserProgress     //Used in keeping track of game progress and will come in handy for responses
+
+
+
+
+PlayerType
+-Enum characterType
+-String capabilities
+
+
+DataStore
+-retrieveData
+
