@@ -13,6 +13,13 @@ enum PlayerType {Nobleman, Merchant, Commoner, Invalid};
 
 extern std::string PlayerTypeNames[3]; //= {"NOBLEMAN", "MERCHANT", "COMMONER"};
 
+
+
+extern std::string ConversationData[40];
+
+
+
+
 /*Function to handle the user's input so that they get a response
 It makes sure all input ends up in CAPS regardless of how the user inputs them */
 
